@@ -17,14 +17,10 @@ const {
     UMT // UserNftMinter smart contract address
 } = process.env;
 
-let factory:ChainFactory;
-let moonbeam: Web3Helper;
-let signer:any;
-
 const initialize = async () => {
-    factory = ChainFactory(AppConfigs.TestNet(), await ChainFactoryConfigs.TestNet());
-    moonbeam = await factory.inner(Chain.MOONBEAM);
-    signer = new Wallet(SK!, moonbeam.getProvider());
+    const factory: ChainFactory = ChainFactory(AppConfigs.TestNet(), await ChainFactoryConfigs.TestNet());
+    const moonbeam: Web3Helper = await factory.inner(Chain.MOONBEAM);
+    const signer:any = new Wallet(SK!, moonbeam.getProvider());
 
     return {
         factory,
