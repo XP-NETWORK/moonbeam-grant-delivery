@@ -1,6 +1,9 @@
 import {initialize} from './initialize';
 import {listNfts} from './list';
 
+/**
+ * Example of calling Approve on Moonbase Alpha
+ */
 export const approve = async () => {
 
     const {

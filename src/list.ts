@@ -2,6 +2,10 @@ import {
     initialize
 } from './initialize';
 
+/**
+ * Listing Moonbase NFTs Example
+ * @returns an array of NFT JSON objects
+ */
 export const listNfts = async () => {
 
     console.log(`Listing NFTs for Moonbeam:`);

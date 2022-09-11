@@ -4,6 +4,9 @@ import {
 } from './initialize';
 import {listNfts} from './list';
 
+/**
+ * Transferring NFTs from Moonbeam Alpha Example
+ */
 const transfer = async () => {
 
     const {
@@ -12,9 +15,12 @@ const transfer = async () => {
         signer
     } = await initialize();
 
+    // Handler for the chain of destination
     const bsc = await factory.inner(Chain.BSC);
 
     const NFTs = await listNfts();
+
+    // Selecting an NFT to transfer (the last on the list)
     const selected = NFTs[NFTs.length-1];
     console.log('Selected:', selected);
 
