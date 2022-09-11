@@ -2,17 +2,21 @@
 
 To interact with the bridge from Moonbeam/Moonbase Alpha, you can use this repository. In case you're reading this long after this repository was created, see our [JavaScript Library](https://github.com/XP-NETWORK/xpjs) repository for updates.
 
-To test this, follow the steps described below.
+To test bridging from code follow the steps described below.
 
 ## 1. Setup
 
-Enter the project folder & iinstall the dependencies:
+Enter the project folder & install the dependencies:
 ```
 cd moonbeam-grant-delivery/
 yarn
 ```
 
 Rename the [`.env.example`](./.env.example) file to `.env` and provide the values for each key.
+
+```bash
+mv .env.example .env
+```
 
 ```bash
 # Your private key

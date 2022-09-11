@@ -20,12 +20,12 @@ export const listNfts = async () => {
     return NFTs;
 }
 
-// (async () => {
-//     const NFTs = await listNfts();
-//     console.log(NFTs);
+(async () => {
+    const NFTs = await listNfts();
+    console.log(NFTs);
     
-//     process.exit(0);
-// })().catch(e => {
-//     console.error(e);
-//     process.exit(1);
-// });
+    process.exit(0);
+})().catch(e => {
+    console.error(e);
+    process.exit(1);
+});
