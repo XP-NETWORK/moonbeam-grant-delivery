@@ -11,7 +11,7 @@
 
 | Length | Deliverable | Specification |
 |-|-|-|
-| 1 week | Tests & Documentation | 1. We will provide both inline documentation of the code and a basic tutorial that can interact with the deployed smart contracts and backend service.<br/>2. The code will have proper unit-test coverage 85% to ensure functionality and robustness. In the guide, we will describe how to run these tests preparing for auditing<br/>3. [Deploying and testing](#deployment--testing-smart-contracts) the contracts in the testnet environment|
+| 1 week | Tests & Documentation | 1. We have provided the inline documentation of the code and a [basic tutorial](#viewing-nft-details) that can interact with the deployed smart contracts and backend service.<br/>2. The code has proper unit-test coverage 85% to ensure functionality and robustness. In the [JavaScript library guide](./tutorial.md), we described how to run these tests preparing for auditing<br/>3. [Deploying and testing](#deployment--testing-smart-contracts) the contracts in the testnet environment|
 
 ### Deployment & Testing Smart contracts:
 
