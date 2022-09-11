@@ -28,6 +28,11 @@ For example, take the contract from the [`./contracts/UMT.sol`](./contracts/UMT.
 
 ![Deploy a test contract](assets/11.png)
 
+Viewing the contract creation transaction on the chain:
+https://moonbase.moonscan.io/tx/0xb13437d4c1a0de1943316cce5af7bbe5ebf18ab63d9929373987d7471bbe366a
+
+![Contract Creation on Moonbase Alpha](assets/13.png)
+
 ## 3. Mint NFTs for testing
 
 In case you're in the Testnet environment, there will be very few, if any, NFTs for testing the bridge functionality. Mint one or several tokens to try the functionality.
@@ -64,6 +69,11 @@ Minted https://meta.polkamon.com/meta?id=10001419693 {
 ✨  Done in 15.75s.
 ```
 The code is available in [`./src/mint.ts`](./src/mint.ts)
+
+Viewing the minting transaction in the explorer:
+https://moonbase.moonscan.io/tx/0x75baae58dab1a8e41171e7e2173a2ba23007865203b91b33afb478ede365fcdd
+
+![Minting TX in the explorer](assets/14.png)
 
 ## 4. Listing (viewing) NFTs
 
@@ -131,6 +141,11 @@ Approved: 0x9e27eed1f7f4d0fe347926129c9c1c9d189440f2322e8b8b5dea235cd7e018a2
 ✨  Done in 40.34s.
 ```
 The code is available in [`./src/approve.ts`](./src/approve.ts)
+
+Viewing the approval confirmation in the chain explorer:
+https://moonbase.moonscan.io/tx/0x9e27eed1f7f4d0fe347926129c9c1c9d189440f2322e8b8b5dea235cd7e018a2
+
+![Viewing Approval on chain](assets/15.png)
 
 ## 6. Transferring an NFT to a foreign chain
 
