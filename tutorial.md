@@ -1,4 +1,4 @@
-# Bridging to/from Moonbeam tutorial
+# Bridging from Moonbeam tutorial
 
 To interact with the bridge from Moonbeam/Moonbase Alpha, you can use this repository. In case you're reading this long after this repository was created, see our [JavaScript Library](https://github.com/XP-NETWORK/xpjs) repository for updates.
 

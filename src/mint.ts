@@ -40,7 +40,7 @@ export const mintOnMoonbeam = async  (url:string) => {
 }
 
 (async () => {
-    await mintOnMoonbeam("https://meta.polkamon.com/meta?id=10001419694");
+    await mintOnMoonbeam("https://meta.polkamon.com/meta?id=10001419693");
     process.exit(0)
 })().catch(e => {
     console.error(e);
