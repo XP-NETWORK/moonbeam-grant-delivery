@@ -1,6 +1,6 @@
 # Moonbeam Grant Delivery Proofs
 
-## 3.1 Validation Logic
+## 3.1 `Validation Logic`
 
 Off-chain validators relay the transactions from one chain to another via the nodes of the respective chains. Without proper validation & signatures assets will not arrive to the destination chain. Here's proof of the validators' proper work:
 
@@ -21,7 +21,7 @@ TO the Moonbeam mainnet:
 |[Origin](https://ftmscan.com/tx/0x94795bdaf1ff5986bc0102bcdfe11133b0411fef5429febda60aecd12ae07fba)|[Destination](https://moonscan.io/tx/0x130890a732f57eb07433e1722cec659661a7e287a82169c9af2c9cdf9adde91f)|
 |[Origin](https://bscscan.com/tx/0xd5e9749ff62712fa832d8b06bb1517815d7571bb6ea090da3c1786638f835ca4)|[Destination](https://moonscan.io/tx/0x4381ae63507cbeb0c775e78845899915ea1f55a22d948b59e96abf920579f7a4)|
 
-## 3.2 NFT Indexing
+## 3.2 `NFT Indexing`
 
 API structure:
 
@@ -53,7 +53,7 @@ nft-index.xp.network/index/
 
 Mainnet Example: [https://nft-index.xp.network/index/nfts/32/0x6449b68cc5675f6011e8DB681B142773A3157cb9](https://nft-index.xp.network/index/nfts/32/0x6449b68cc5675f6011e8DB681B142773A3157cb9)
 
-## 3.3 TX Fee estimation
+## 3.3 `TX Fee estimation`
 
 To test run in the terminal:
 ```bash
@@ -86,7 +86,7 @@ Estimation 3021599742997896150
 ✨  Done in 12.41s.
 ```
 
-## 3.4 Heartbeat
+## 3.4 `Heartbeat`
 
 Heartbeat is a tool monitoring liveliness of the chain nodes, and the bridge validators. If the nodes are not responsive or the number of the active validators is below the threshold, the blockchain is automatically disable in the bridge & the widget UI to avoid errors or stuck assets.
 
@@ -94,7 +94,7 @@ Link: https://bridgestatus.herokuapp.com/status
 
 The internal bridge chain nonce for Moonbeam is 32
 
-## 3.5 RPC Nodes
+## 3.5 `RPC Nodes`
 
 Integrated RPC nodes:
 
@@ -103,7 +103,7 @@ Integrated RPC nodes:
 |Testnet|https://rpc.api.moonbase.moonbeam.network|[link](https://github.com/XP-NETWORK/xpjs/blob/secretjs/src/consts.ts#L57)|
 |Mainnet|https://rpc.api.moonbeam.network|[link](https://github.com/XP-NETWORK/xpjs/blob/secretjs/src/consts.ts#L87)|
 
-## 3.6 Bridge UI
+## 3.6 `Bridge UI`
 
 Link: https://staging-bridge.xp.network/#
 
@@ -122,7 +122,7 @@ Link: https://staging-bridge.xp.network/#
 5. Transferring FROM Moonbeam
 
 
-## 3.7 Mainnet Contracts
+## 3.7 `Mainnet Contracts`
 
 |Contract Name|Address|Links|
 |:-:|:-:|:-:|
@@ -130,7 +130,7 @@ Link: https://staging-bridge.xp.network/#
 |Default ERC-721|0xfD3Ce0a10D4731b136a7C9e3f8a37edA1EFbf77f|[Link](https://moonscan.io/address/0xfD3Ce0a10D4731b136a7C9e3f8a37edA1EFbf77f)|
 |Default ERC-1155|0xe535A8De7C42a8bc1633f16965fbc259a3Ef58B6|[Link](https://moonscan.io/address/0xe535a8de7c42a8bc1633f16965fbc259a3ef58b6)|
 
-## 3.8 JS Library integration
+## 3.8 `JS Library integration`
 
 Links: 
 1. https://github.com/XP-NETWORK/xpjs/search?q=moonbeam
@@ -138,6 +138,6 @@ Links:
 3. https://github.com/XP-NETWORK/xpjs/search?q=moonbeam&type=commits
 
 
-## 3.9 Widget Integration
+## 3.9 `Widget Integration`
 
 To be integrated on October 23-27
