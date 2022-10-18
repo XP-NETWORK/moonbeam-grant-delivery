@@ -13,9 +13,6 @@
 |-|-|-|
 | 1 week | Tests & Documentation | 1. We have provided the inline documentation of the code and a [basic tutorial](./ui_tutorial.md) that can interact with the deployed smart contracts and backend service.<br/>2. The code has proper unit-test coverage 85% to ensure functionality and robustness. In the [JavaScript library guide](./tutorial.md), we described how to run these tests preparing for auditing<br/>3. [Deploying and testing](./deployment_n_testing.md) the contracts in the testnet environment|
 
-
-# TODO
-
 ## `Milestone 3` — Integrating into the Live Bridge
 | Length | Deliverable | Specification |
 |-|-|-|

@@ -116,6 +116,10 @@ Link: https://staging-bridge.xp.network/#
 3. Fee estimation in the UI
 ![UI-3](assets/20.png)
 
+4. Transferring TO Moonbeam
+![UI-4](assets/21.jpeg)
+
+5. Transferring FROM Moonbeam
 
 
 ## 3.7 Mainnet Contracts
