@@ -9,7 +9,8 @@
     "mint":"tsc && node ./dist/mint.js",
     "list_nfts":"tsc && node ./dist/list.js",
     "approve":"tsc && node ./dist/approve.js",
-    "transfer":"tsc && node ./dist/transfer.js"
+    "transfer":"tsc && node ./dist/transfer.js",
+    "estimate":"tsc && node ./dist/estimate.js"
   },
   "dependencies": {
     "@elrondnetwork/erdjs": "9.0.3",

@@ -18,7 +18,7 @@ const transfer = async () => {
     // Handler for the chain of destination
     const bsc = await factory.inner(Chain.BSC);
 
-    const NFTs = await listNfts();
+    const NFTs = await listNfts(signer.address);
 
     // Selecting an NFT to transfer (the last on the list)
     const selected = NFTs[NFTs.length-1];

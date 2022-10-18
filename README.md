@@ -19,4 +19,5 @@
 ## `Milestone 3` — Integrating into the Live Bridge
 | Length | Deliverable | Specification |
 |-|-|-|
-| 2 weeks | Validators, Backend, Frontend | 1. Developing validation logic relevant for the Moonbeam part of the bridge<br/>2. Adding Moonbeam to the Bridge NFT-Indexer<br/>3. Integrating TX fee estimation<br/>4. Plugging Moonbeam in the heartbeat<br/>5. Integrating with a Moonbeam rpc node<br/>6. Integrating Moonbeam in the bridge UI<br/>7. Deploying smart contracts<br/>8. Adding Moonbeam to the bridge JS library<br/>9. Adding Moonbeam to the bridge widget|
+| 2 weeks | Validators, Backend, Frontend | 1. Developed [validation logic](./proof.md/#31-validation-logic) relevant for the Moonbeam part of the bridge<br/>2. Added Moonbeam to the Bridge [NFT-Indexer](./proof.md/#32-nft-indexing)<br/>3. Integrated [TX fee estimation](./proof.md/#33-tx-fee-estimation)<br/>4. Plugged Moonbeam in the [heartbeat](./proof.md/#34-heartbeat)<br/>5. Integrated with a Moonbeam [RPC nodes](./proof.md/#35-rpc-nodes)<br/>6. Integrated Moonbeam in the [bridge UI](./proof.md/#36-bridge-ui)<br/>7. Deployed [Mainnet smart contracts](./proof.md/#37-mainnet-contracts)<br/>8. Added Moonbeam to the bridge [JS library](./proof.md/#38-js-library-integration)<br/>9. Added Moonbeam to the bridge [widget](./proof.md/#39-widget-integration)|
+|

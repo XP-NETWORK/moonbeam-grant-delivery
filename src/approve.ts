@@ -11,7 +11,8 @@ export const approve = async () => {
         signer
     } = await initialize();
 
-    const NFTs = await listNfts();
+    const owner:string = signer.address;
+    const NFTs = await listNfts(owner);
     const selected = NFTs[NFTs.length-1];
     console.log('Selected:', selected);
     
