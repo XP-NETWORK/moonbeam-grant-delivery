@@ -120,7 +120,7 @@ Link: https://staging-bridge.xp.network/#
 ![UI-4](assets/21.jpeg)
 
 5. Transferring FROM Moonbeam
-
+![UI-5](assets/23.jpeg)
 
 ## 3.7 `Mainnet Contracts`
 
@@ -140,4 +140,6 @@ Links:
 
 ## 3.9 `Widget Integration`
 
-To be integrated on October 23-27
+Link: https://widget-staging.xp.network/?widget=true&wsettings=true
+
+![Widget](assets/22.png)
